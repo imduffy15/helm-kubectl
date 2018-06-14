@@ -13,7 +13,6 @@ Supported tags and release links
 * [2.9.2](https://github.com/imduffy15/helm-kubectl/releases/tag/2.9.2) - helm v2.9.1, kubectl v1.10.2, sigil 0.4.0, alpine 3.7
 * [2.8.2](https://github.com/imduffy15/helm-kubectl/releases/tag/2.8.2) - helm v2.8.2, kubectl v1.10.2, sigil 0.4.0, alpine 3.7
 
-
 ## Overview
 
 This lightweight alpine docker image provides kubectl, helm and sigil binaries for working with a Kubernetes cluster.  A local configured kubectl is a prerequisite to use helm per [helm documentation](https://github.com/kubernetes/helm/blob/master/docs/quickstart.md).  This image is useful for general helm administration such as deploying helm charts and managing releases. It is also perfect for any automated deployment pipeline needing to use helm which supports docker images such as [Concourse CI](https://concourse.ci), [Jenkins on Kubernetes](https://kubeapps.com/charts/stable/jenkins), [Travis CI](https://docs.travis-ci.com/user/docker/), and [Circle CI](https://circleci.com/integrations/docker/).  Having bash installed allows for better support for troubleshooting by being able to exec / terminal in and run desired shell scripts.  Git installed allows installation of [helm plugins](https://github.com/kubernetes/helm/blob/master/docs/plugins.md).
