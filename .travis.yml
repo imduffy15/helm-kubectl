@@ -3,7 +3,7 @@ env:
   global:
     - secure: G5Ol4bitn0DBsgKhlTXXN9qP9/D+J0QVWAZyF7xNvnpiiAixOiKZ1Avd2lG8fOl8vj2z7OTrUCUH93TxfWaJkZJb7YZkUCX5D4gXKCeGGde6+q7H6+m/T2rpUq8Z+p5rrfFqH7lsENfWmEzOaWNUApl9UnXk2zTI1aOJS4vKBz2lHXLXWe3+zcvwDRLvPXrsTaDfQbKunFKj2+IJY6y/FIDIsjmZ/2N3hSZoRieXZYqxZO/BgcoymXpvncRmhZQEt5EB2bXHSLs57hzXcu8MaUPMCwIEzdV1e//xVCvJaXmmXOY8IDLApVHOvBUcJZyWLfSDmHL5FrQ35LmtdF7xU7sywlXkYF5EmQ1uHL4AmBMFbf+9Z41uiN0LZvu5psTwsDaxYAKvt3iFyUciq9ECg9U76zBftSUa1yYL6vnPSzs4vASjjiaisVCetB8uy+/8kl2dARFjs9FPrKWAZy2/jCVgvbyFHcmVftJBpdz1BpzIxAvxWkWiswUHEzjLYkaG/aORMWuduOOMhRTQ71fu1lnkrM0QIssrn/5nTKYDQNraTzqulFA+9op9hDDTx5Qyzh/HXdMpUxKbiWEsFk5XjsmGj6U5+CFimYPHT1AAPLZvpx5IG3wWoEdlQUx47r/cTkGq8jaCENuThKL7RuX9/MlkBnk40e/yyuqJgN9XQv0=
     - DOCKER_IMAGE=imduffy15/helm-kubectl
-    - DOCKER_TAG=2.8.2
+    - DOCKER_TAG=3.0.0
 services:
   - docker
 script:
