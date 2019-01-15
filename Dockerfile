@@ -55,3 +55,8 @@ RUN apk add --no-cache jq
 
 # Install DNS tools
 RUN apk add --no-cache bind-tools
+
+RUN echo '[http]\n\
+sslverify = false\n'\
+> $HOME/.gitconfig
+
